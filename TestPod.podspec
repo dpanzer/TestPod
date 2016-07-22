@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
 A longer description of TestPod..
                    DESC
 
-  s.homepage     = "http://www.github.com/TestPod"
+  s.homepage     = "http://www.github.com/dpanzer/TestPod"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -40,7 +40,7 @@ A longer description of TestPod..
   #
 
   #s.license      = "MIT (example)"
-   s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+   s.license      = { :type => "MIT", :file => "LICENSE" }
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -91,8 +91,8 @@ A longer description of TestPod..
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "Classes", "Classes/**/*.{h,m}"
-  s.exclude_files = "Classes/Exclude"
+  s.source_files  = "TestFramework.framework/Headers/*.h"
+  #s.exclude_files = "Classes/Exclude"
 
   s.public_header_files = "TestFramework.framework/Headers/*.h"
 
