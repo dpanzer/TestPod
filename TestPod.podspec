@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "TestPod"
-  s.version      = "0.1.13"
+  s.version      = "0.1.14"
   s.summary      = "A shorter description of TestPod."
 
   # This description is used to generate tags and improve search results.
