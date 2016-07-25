@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "TestPod"
-  s.version      = "0.1.12"
+  s.version      = "0.1.13"
   s.summary      = "A shorter description of TestPod."
 
   # This description is used to generate tags and improve search results.
@@ -135,12 +135,12 @@ s.vendored_frameworks = "TestFramework.framework"
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
 
-	s.dependency 'AFNetworking', '~> 2.0'
-	s.dependency 'libextobjc', '~> 0.4'
-	s.dependency 'UIAlertView+Blocks'
-	s.dependency 'GPUImage', '~> 0.1'
-	s.dependency 'MBProgressHUD', '~> 0.9'
-	s.dependency 'PPBlinkOCR', '~> 2.0.0'
-	s.dependency 'OpenCV', '~> 3.0'
+	#s.dependency 'AFNetworking', '~> 2.0'
+	#s.dependency 'libextobjc', '~> 0.4'
+	#s.dependency 'UIAlertView+Blocks'
+	#s.dependency 'GPUImage', '~> 0.1'
+	#s.dependency 'MBProgressHUD', '~> 0.9'
+	#s.dependency 'PPBlinkOCR', '~> 2.0.0'
+	#s.dependency 'OpenCV', '~> 3.0'
 
 end
