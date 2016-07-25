@@ -1,5 +1,5 @@
 //
-//  ScanManager.h
+//  InsertManager.h
 //  TestFramework
 //
 //  Created by Danny Panzer on 7/18/16.
@@ -9,11 +9,15 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
-@interface ScanManager : NSObject
+@interface InsertManager : NSObject
 
 +(instancetype) sharedManager;
 
-- (void)doThing;
+-(void) startManager;
+-(void) stopManager;
+
 -(void) showMessageInViewController:(UIViewController *)viewController;
+
+-(BOOL) isManagerRunning;
 
 @end
