@@ -15,7 +15,7 @@
 
 - (void)ocrTestImage;
 
-- (void)ocrImage:(UIImage*)img;
+- (void)ocrImage:(UIImage*)img withCompletion:(void(^)(NSDictionary*, NSError*))completion;
 
 @property (strong, atomic) NSString *blinkLicenseKey;
 
