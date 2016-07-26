@@ -13,7 +13,10 @@
 
 +(instancetype) sharedManager;
 
-- (void)doThing;
--(void) showMessageInViewController2:(UIViewController *)viewController;
+- (void)ocrTestImage;
+
+- (void)ocrImage:(UIImage*)img;
+
+@property (strong, atomic) NSString *blinkLicenseKey;
 
 @end
